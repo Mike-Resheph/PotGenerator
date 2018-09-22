@@ -10,6 +10,8 @@ A bonus on testing tools such as Hashcat with a lot of GPU power with real passw
 
 Output from all the scripts should be redirected to a new file with a useful name because by default output is written to stdout.
 
+Make sure to make the scripts executable with "# chmod u+x <script>" for it to work.
+
 ## linuxMD5gen.sh
 This small bash script will take a wordlist as an argument and output linux MD5 passwords.
 
