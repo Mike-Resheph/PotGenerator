@@ -24,4 +24,4 @@ This small bash script will take a wordlist as an argument and output raw MD5 ha
 
 ## only.sh
 This script will remove both very short and very long passwords from a wordlist and output only the most useful words.
-The script takes 3 arguments. The first one is the minimum word length, the second is the masimum word length and the third is the wordfile you wish to clean up.
+The script takes 3 arguments. The first one is the minimum word length, the second is the maximum word length and the third one is the wordfile you wish to clean up.
