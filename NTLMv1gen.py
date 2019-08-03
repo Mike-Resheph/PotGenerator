@@ -6,7 +6,7 @@ import hashlib,sys
 file = open(sys.argv[1])
 for line in file:
 	try:
-		hash = hashlib.new('md4', line.encode('utf-16le')).hexdigest();
-		print hash
+		hash = hashlib.new('md4', line.rstrip().encode('utf-16le')).hexdigest();
+		print hash.upper()
 	except:
 		print ""
